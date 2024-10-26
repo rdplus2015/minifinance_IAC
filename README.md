@@ -44,10 +44,10 @@ Follow these steps to set up your Vagrant environment:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/rdplus2015/mircrofinance_IAC.git 
+   git clone https://github.com/rdplus2015/minifinance_IAC.git 
    ```
    ```bash
-   cd mircrofinance_IAC
+   cd minifinance_IAC
    ```
 
 2. **Initialize the Vagrant Environment:**
