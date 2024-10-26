@@ -11,10 +11,30 @@ The goal of this project is to learn the basics of Infrastructure as Code (IaC) 
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (version 6.x or later)
 
 Make sure to download these tools before proceeding.
+## Note
+### VM Characteristics
+
+The virtual machine created by this Vagrant setup has the following characteristics:
+
+- **Base Box**: Ubuntu 22.04 (Jammy Jellyfish)
+- **Memory Allocation**: 1024 MB
+- **CPU Allocation**: 1 CPU
+- **Storage**: 
+  - Disk Size: 10 GB (default size for the base box)
+- **Network Configuration**: 
+  - Private Network IP: `192.168.56.28`
+  - Public Network (optional)
+- **Provisioning**: 
+  - Apache web server installed and configured
+  - Simple HTML and CSS finance website deployed
+
+These specifications provide a lightweight environment suitable for developing and testing web applications locally.
+
 
 ## Getting Started
 
 Follow these steps to set up your Vagrant environment:
+
 
 1. **Clone the Repository:**
 
@@ -74,6 +94,7 @@ The provisioning script performs the following tasks:
 ## Customization
 
 Feel free to modify the Vagrantfile and the provisioning script to fit your project's needs.
+
 
 ## Contributing
 
